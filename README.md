@@ -15,7 +15,7 @@ Paste this into your terminal to clone and install everything automatically:
 ```bash
 sudo git clone https://github.com/crashpb/sing-box-gateway-manager.git /opt/sing-box-gateway-manager && \
 cd /opt/sing-box-gateway-manager && \
-chmod +x Install.sh && \
+sudo chmod +x Install.sh && \
 sudo ./Install.sh
 
 
@@ -62,4 +62,5 @@ sudo ./Install.sh
 *    Linux (Ubuntu/Debian recommended)
 *    curl, tar
 *    Root privileges
+
 
