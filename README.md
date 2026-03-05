@@ -13,10 +13,10 @@ An automated tool to deploy Sing-Box transparent gateways on Linux.
 Paste this into your terminal to clone and install everything automatically:
 
 ```bash
-git clone [https://github.com/crashpb/sing-box-gateway-manager.git](https://github.com/crashpb/sing-box-gateway-manager.git) /opt/sbg-repo && \
-cd /opt/sbg-repo && \
-chmod +x install.sh && \
-sudo ./install.sh
+sudo git clone https://github.com/crashpb/sing-box-gateway-manager.git /opt/sing-box-gateway-manager && \
+cd /opt/sing-box-gateway-manager && \
+chmod +x Install.sh && \
+sudo ./Install.sh
 
 
 (Note: The installer attempts to download the latest Sing-Box binary automatically. If it fails, you will need to place the binary in /opt/sing-box-gateway-manager/bin/ manually.)
@@ -62,3 +62,4 @@ sudo ./install.sh
 *    Linux (Ubuntu/Debian recommended)
 *    curl, tar
 *    Root privileges
+
